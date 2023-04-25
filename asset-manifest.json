@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Crypto-Verse/static/css/main.f89bc935.css",
+    "main.js": "/Crypto-Verse/static/js/main.3690cd26.js",
+    "static/media/grid2.jpg": "/Crypto-Verse/static/media/grid2.fcdde6c693a5228419c0.jpg",
+    "static/media/info.jpg": "/Crypto-Verse/static/media/info.6fad1de0b63bda890dbb.jpg",
+    "static/media/logo.png": "/Crypto-Verse/static/media/logo.a85b6de0dc4a013ae2f8.png",
+    "static/media/banner.jpg": "/Crypto-Verse/static/media/banner.024bea9a7a5957e6b2b8.jpg",
+    "index.html": "/Crypto-Verse/index.html",
+    "main.f89bc935.css.map": "/Crypto-Verse/static/css/main.f89bc935.css.map",
+    "main.3690cd26.js.map": "/Crypto-Verse/static/js/main.3690cd26.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f89bc935.css",
+    "static/js/main.3690cd26.js"
+  ]
+}
