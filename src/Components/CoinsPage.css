@@ -1,0 +1,63 @@
+.page3 {
+    height: 100vh;
+    background-image: url("../Images/info.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.insights {
+    margin-top: 80px;
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    margin-left: 42%;
+    font-size: 4em;
+    padding-top: 20px;
+    font-family: "Raleway";
+    transform: skew(-20deg);
+}
+
+.ref {
+    filter: drop-shadow(0 0 20px black);
+    background-color: black;
+    color: white;
+}
+
+.symbol {
+    color: black;
+    margin-top: 200px;
+    position: absolute;
+    margin-left: 46%;
+}
+
+.name {
+    position: absolute;
+    margin-left: 47%;
+    margin-top: 360px;
+    width: 150px;
+    font-size: 30px;
+    white-space: nowrap;
+    font-family: "Raleway";
+    filter: drop-shadow(0 0 20px black);   
+}
+
+.rank {
+    position: absolute;
+    margin-left: 47%;
+    margin-top: 390px;
+    width: 150px;
+    font-size: 30px;
+    white-space: nowrap;
+    font-family: "Raleway";
+}
+
+.charts {
+    position: absolute;
+    width: 1000px;
+    height: 450px;
+    margin-top: 430px;
+    margin-left: 400px;
+    margin-right: 200px;
+    padding-left: 150px;
+    background-color: transparent;
+}

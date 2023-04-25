@@ -1,0 +1,14 @@
+.page2{
+    height: 120vh; 
+    background-image: url("../Images/info.jpg");
+    background-size: cover;
+}
+
+.market{
+    height: 50px;
+    transform: skew(-20deg);
+}
+
+.table{
+    height: 80px;
+}

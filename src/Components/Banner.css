@@ -1,0 +1,167 @@
+.page1 {
+    height: 100vh;
+    background-image: url("../Images/banner.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.seperate {
+    height: 64px;
+}
+
+.circle {
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 9999px;
+    background-color: black;
+    margin-left: 23.25%;
+    margin-top: 80px;
+    position: absolute;
+}
+
+.line {
+    width: 0.25rem;
+    height: 10rem;
+    background-image: linear-gradient(black, white);
+    margin-left: 23.65%;
+    margin-top: 100px;
+    position: absolute;
+}
+
+.spot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 37%;
+    margin-top: 100px;
+}
+
+.wrapper {
+    display: flex;
+    position: absolute;
+    font-family: "Raleway";
+    margin-top: 100px;
+    font-weight: 300;
+}
+
+.wrapper .static-txt {
+    color: black;
+    font-size: 100px;
+    font-weight: 400;
+}
+
+.wrapper .dynamic-txts {
+    margin-left: 15px;
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+}
+
+.dynamic-txts li {
+    list-style: none;
+    color: black;
+    font-weight: bold;
+    margin: 0 0 3px 0;
+    font-size: 70px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(4) infinite;
+}
+
+@keyframes slide {
+    100% {
+        top: -360px;
+    }
+}
+
+.dynamic-txts li span {
+    position: relative;
+    margin: 5px 0;
+    line-height: 90px;
+}
+
+.dynamic-txts li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: black;
+    border-left: 2px solid black;
+    animation: typing 3s steps(10) infinite;
+}
+
+@keyframes typing {
+
+    40%,
+    60% {
+        left: calc(100% + 30px);
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+.trend {
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 470px;
+    padding-bottom: 20px;
+    height: 100px;
+    width: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em
+}
+
+.trend h2 {
+    position: relative;
+    color: white;
+}
+
+h2::before {
+    content: attr(data-text);
+    position: absolute;
+    color: black;
+    width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 4px solid black;
+    animation: animate 7s linear infinite;
+    filter: drop-shadow(0 0 30px black);
+}
+
+@keyframes animate {
+    0% {
+        width: 0;
+        ;
+    }
+
+    70%,
+    90% {
+        width: 100%;
+    }
+}
+
+.carousel {
+    position: relative;
+    width: 70%;
+    margin-left: 20%;
+    margin-top: 600px;
+    align-items: center;
+    height: 150px;
+}
+
+.cr-item {
+    display: "flex";
+    flex-direction: "column";
+    align-items: "center";
+    cursor: "pointer";
+    text-transform: "uppercase";
+    color: "black";
+    margin-right: 100px;
+}
+
